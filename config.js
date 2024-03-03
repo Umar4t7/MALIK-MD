@@ -19,7 +19,7 @@ module.exports = {
   sessionName:  process.env.SESSION_ID ||  "session",
   botname:   process.env.BOT_NAME === undefined ? '*«ᴍᴀᴅᴇ ʙʏ ᴜᴍᴀʀ»*' : process.env.BOT_NAME,
   ownername: process.env.OWNER_NAME === undefined ? 'HANIA' : process.env.OWNER_NAME,
-  author:  process.env.PACK_INFO === undefined ? 'bot' : process.env.PACK_INFO.split(";")[0],
+  author:  process.env.PACK_INFO === undefined ? '𝑴𝑨𝑫𝑬 𝑩𝒀 𝑼𝑴𝑨𝑹' : process.env.PACK_INFO.split(";")[0],
   auto_read_status :  process.env.AUTO_READ_STATUS === undefined ? false : process.env.AUTO_READ_STATUS,
   packname:  process.env.PACK_INFO === undefined ? 'umar' : process.env.PACK_INFO.split(";")[1],
   autoreaction:  process.env.AUTO_REACTION  === undefined ? false : process.env.AUTO_REACTION ,
