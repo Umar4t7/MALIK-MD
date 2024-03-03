@@ -19,7 +19,7 @@ Secktor.cmd({
 },
 async (Void, citel) => {
     var initial = new Date().getTime();
-    const { key } = await Void.sendMessage(citel.chat, { text: '```Pinging from server```' });
+    const { key } = await Void.sendMessage(citel.chat, { text: '```𝑻𝒆𝒔𝒕𝒊𝒏𝒈 𝑷𝒊𝒏𝒈 𝑩𝒚 𝑼𝑴𝑨𝑹```' });
     var final = new Date().getTime();
 
     // Calculate the ping value in milliseconds
@@ -37,5 +37,5 @@ async (Void, citel) => {
     await Secktor.sleep(1000);
 
     // Send the final ping message
-    return await Void.sendMessage(citel.chat, { text: `*Pinged by umar: ${pingValue} ms*` });
+    return await Void.sendMessage(citel.chat, { text: `*𝑻𝑯𝑰𝑺 𝑰𝑺 𝑼𝑴𝑨𝑹-𝑲𝑰𝑵𝑮*: ${pingValue} ms*` });
 });
