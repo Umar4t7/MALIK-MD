@@ -19,7 +19,7 @@ cmd({
         filename: __filename,
     },
     async(Void, citel) => {
-        if(!citel.quoted) return citel.reply('Please quote any text to get link.')
+        if(!citel.quoted) return citel.reply('Please quote any text to get link by umar.')
         let data = await pastebin.createPaste(citel.quoted.text, "Secktor-Pastebin")
         citel.reply('_Here is your link._\n'+data)
     }
